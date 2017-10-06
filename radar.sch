@@ -5717,6 +5717,116 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ADF4169">
+<packages>
+<package name="ADF4169">
+<wire x1="-1.99898125" y1="1.99898125" x2="-1.99898125" y2="-1.99898125" width="0.127" layer="21"/>
+<wire x1="-1.99898125" y1="-1.99898125" x2="1.99898125" y2="-1.99898125" width="0.127" layer="21"/>
+<wire x1="1.99898125" y1="-1.99898125" x2="1.99898125" y2="1.99898125" width="0.127" layer="21"/>
+<wire x1="1.99898125" y1="1.99898125" x2="-1.99898125" y2="1.99898125" width="0.127" layer="21"/>
+<smd name="GND" x="0" y="0" dx="2.10058125" dy="2.10058125" layer="1"/>
+<smd name="CP" x="-1.249934375" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="RSET" x="-0.7500625" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="VP" x="-0.2499375" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="SW2" x="0.2499375" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="SW1" x="0.7500625" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="DVDD" x="1.249934375" y="1.8796" dx="0.2499375" dy="0.39878125" layer="1"/>
+<smd name="CPGND" x="-1.8796" y="1.249934375" dx="0.2499375" dy="0.39878125" layer="1" rot="R90"/>
+<smd name="AGND" x="-1.8796" y="0.7500625" dx="0.2499375" dy="0.39878125" layer="1" rot="R90"/>
+<smd name="AGND1" x="-1.8796" y="0.2499375" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="RFINB" x="-1.8796" y="-0.2499375" dx="0.2499375" dy="0.39878125" layer="1" rot="R90"/>
+<smd name="RFINA" x="-1.8796" y="-0.7500625" dx="0.2499375" dy="0.39878125" layer="1" rot="R90"/>
+<smd name="AVDD" x="-1.8796" y="-1.249934375" dx="0.2499375" dy="0.39878125" layer="1" rot="R90"/>
+<smd name="AVDD1" x="-1.249934375" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="AVDD2" x="-0.7500625" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="REFIN" x="-0.2499375" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="DGND" x="0.2499375" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="SDGND" x="0.7500625" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="TXDATA" x="1.249934375" y="-1.8796" dx="0.2499375" dy="0.39878125" layer="1" rot="R180"/>
+<smd name="CE" x="1.8796" y="-1.249934375" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="CLK" x="1.8796" y="-0.7500625" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="DATA" x="1.8796" y="-0.2499375" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="LE" x="1.8796" y="0.2499375" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="MUXOUT" x="1.8796" y="0.7500625" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+<smd name="SDVDD" x="1.8796" y="1.249934375" dx="0.2499375" dy="0.39878125" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ADF4169">
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<pin name="CPGND" x="-15.24" y="17.78" length="middle"/>
+<pin name="AGND" x="-15.24" y="15.24" length="middle"/>
+<pin name="AGND1" x="-15.24" y="12.7" length="middle"/>
+<pin name="RFINB" x="-15.24" y="10.16" length="middle"/>
+<pin name="RFINA" x="-15.24" y="7.62" length="middle"/>
+<pin name="AVDD" x="-15.24" y="5.08" length="middle"/>
+<pin name="AVDD1" x="-15.24" y="2.54" length="middle"/>
+<pin name="AVDD2" x="-15.24" y="0" length="middle"/>
+<pin name="REFIN" x="-15.24" y="-2.54" length="middle"/>
+<pin name="DGND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="SDGND" x="-15.24" y="-7.62" length="middle"/>
+<pin name="TXDATA" x="-15.24" y="-10.16" length="middle"/>
+<pin name="CP" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RSET" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="VP" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="SW2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="SW1" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="DVDD" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="SDVDD" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="MUXOUT" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="LE" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="DATA" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="CLK" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="CE" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="GND" x="2.54" y="-17.78" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADF4169">
+<description>PLL</description>
+<gates>
+<gate name="G$1" symbol="ADF4169" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ADF4169">
+<connects>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="AGND1" pad="AGND1"/>
+<connect gate="G$1" pin="AVDD" pad="AVDD"/>
+<connect gate="G$1" pin="AVDD1" pad="AVDD1"/>
+<connect gate="G$1" pin="AVDD2" pad="AVDD2"/>
+<connect gate="G$1" pin="CE" pad="CE"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="CP" pad="CP"/>
+<connect gate="G$1" pin="CPGND" pad="CPGND"/>
+<connect gate="G$1" pin="DATA" pad="DATA"/>
+<connect gate="G$1" pin="DGND" pad="DGND"/>
+<connect gate="G$1" pin="DVDD" pad="DVDD"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LE" pad="LE"/>
+<connect gate="G$1" pin="MUXOUT" pad="MUXOUT"/>
+<connect gate="G$1" pin="REFIN" pad="REFIN"/>
+<connect gate="G$1" pin="RFINA" pad="RFINA"/>
+<connect gate="G$1" pin="RFINB" pad="RFINB"/>
+<connect gate="G$1" pin="RSET" pad="RSET"/>
+<connect gate="G$1" pin="SDGND" pad="SDGND"/>
+<connect gate="G$1" pin="SDVDD" pad="SDVDD"/>
+<connect gate="G$1" pin="SW1" pad="SW1"/>
+<connect gate="G$1" pin="SW2" pad="SW2"/>
+<connect gate="G$1" pin="TXDATA" pad="TXDATA"/>
+<connect gate="G$1" pin="VP" pad="VP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5740,6 +5850,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="HMC735LP5" deviceset="HMC735LP5" device=""/>
+<part name="U$3" library="ADF4169" deviceset="ADF4169" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5768,8 +5879,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="GND1" gate="1" x="10.16" y="144.78"/>
 <instance part="GND2" gate="1" x="0" y="109.22"/>
 <instance part="GND3" gate="1" x="43.18" y="109.22"/>
-<instance part="GND4" gate="1" x="-2.54" y="30.48"/>
-<instance part="U$2" gate="G$1" x="-2.54" y="68.58"/>
+<instance part="GND4" gate="1" x="-30.48" y="30.48"/>
+<instance part="U$2" gate="G$1" x="-30.48" y="68.58"/>
+<instance part="U$3" gate="G$1" x="45.72" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -5810,21 +5922,21 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="U$2" gate="G$1" pin="GND3"/>
-<wire x1="-2.54" y1="33.02" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-30.48" y1="33.02" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-2.54" y1="35.56" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="71.12" x2="-35.56" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="71.12" x2="-35.56" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="55.88" x2="-35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
-<junction x="-2.54" y="35.56"/>
+<wire x1="-30.48" y1="35.56" x2="-30.48" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="71.12" x2="-63.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="71.12" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="55.88" x2="-63.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-30.48" y="35.56"/>
 <pinref part="U$2" gate="G$1" pin="GND1"/>
-<wire x1="-17.78" y1="55.88" x2="-35.56" y2="55.88" width="0.1524" layer="91"/>
-<junction x="-35.56" y="55.88"/>
+<wire x1="-45.72" y1="55.88" x2="-63.5" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-63.5" y="55.88"/>
 <pinref part="U$2" gate="G$1" pin="GND2"/>
-<wire x1="12.7" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="78.74" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="78.74" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="78.74" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="35.56" x2="-30.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -5842,8 +5954,8 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VCC(DIG)"/>
-<wire x1="-17.78" y1="68.58" x2="-22.86" y2="68.58" width="0.1524" layer="91"/>
-<label x="-22.86" y="68.58" size="1.778" layer="95" rot="R180"/>
+<wire x1="-45.72" y1="68.58" x2="-50.8" y2="68.58" width="0.1524" layer="91"/>
+<label x="-50.8" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="3V3" class="0">
